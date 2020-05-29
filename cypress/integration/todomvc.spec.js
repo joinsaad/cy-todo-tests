@@ -11,6 +11,8 @@ it('it should be able to add a new todo to the list', () => {
     cy.contains('Clear completed').click()
     cy.get('todo-list').should('not.have.descendants','li')
     //some comments
+    //some more comments
+    
 })
 
 
