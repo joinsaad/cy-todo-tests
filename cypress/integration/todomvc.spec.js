@@ -10,6 +10,7 @@ it('it should be able to add a new todo to the list', () => {
     cy.get('label').should('have.css','text-decoration-line','line-through')
     cy.contains('Clear completed').click()
     cy.get('todo-list').should('not.have.descendants','li')
+    //some comments
 })
 
 
